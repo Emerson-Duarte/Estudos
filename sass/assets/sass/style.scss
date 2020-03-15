@@ -1,0 +1,50 @@
+nav {
+    background-color: #eee;
+    height: 100px;
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+
+        a{
+            display: block;
+            background-color: #CCC;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                background-color: greenyellow;
+            }
+        }
+    }
+}
+
+%fundamento-msg {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #CCC;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10px;
+}
+.msg-info {
+    @extend %fundamento-msg;
+    border-color: blue;
+    color: blue;
+}
+.msg-aviso {
+    @extend %fundamento-msg;
+    border-color: red;
+    color: red;
+}
+.msg-sucesso {
+    @extend %fundamento-msg;
+    border-color: green;
+    color: green;
+}

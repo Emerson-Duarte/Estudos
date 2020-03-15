@@ -1,0 +1,112 @@
+.topo {
+    height: 80px;
+    display: flex;
+    margin-left: 1700px;
+}
+.topo img {
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.corpo {
+    height: 725px;
+}
+.base {
+    background-color: #f2f2f2;
+    border-top: #e4e4e4 1px solid;
+}
+.cima {
+    height: 40px;
+    background-color: #f2f2f2;
+    border-top: #e4e4e4 1px solid;
+    padding-left: 30px;
+    display: flex;
+}
+.baixo {
+    height: 40px;
+    background-color: #f2f2f2;
+    border-top: #e4e4e4 1px solid;
+    padding-left: 30px;
+    display: flex;
+}
+h6 {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+h6:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+h5 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #7f7f7f;
+    margin-right: 12px;
+    display: inline-flex;
+}
+.right {
+    margin-left: 1230px;
+}
+.baixo h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.baixo h5:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container {
+    width: 500px;
+    margin-top: 80px;
+    align-items: center;
+}
+.container img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+.pesquisa {
+    width: 600px;
+    height: 50px;
+    border: 0px solid #7f7f7f;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px rgba(50, 50, 50, 0.7);
+    display: inline-flex;
+    margin-left: -150px;
+}
+.pesquisa img {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input:focus {
+    outline: 0;
+}
+input {
+    width: 450px;
+    border: 0px;
+}
+button {
+    background-color: #f2f2f2;
+    border: 0.5px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 0px;
+    font-size: 15px;
+    margin: 20px 10px 0px 0px;
+}
+button:hover {
+    border: 0.5px solid #7f7f7f;
+}

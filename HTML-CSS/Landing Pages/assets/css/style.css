@@ -1,0 +1,134 @@
+* {
+    font-family: arial;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #7159c1;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1010px;
+}
+.roxo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7159c1;
+    width: 100%;
+    margin-top: 50px;
+}
+.logo {
+    display: flex;
+    align-items: left;
+}
+.logo img {
+    height: 40px;
+    margin-top: 20px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #af9ee6;
+}
+nav .active a,
+nav a:hover {
+    background-color: #7159c1;
+    color: white;
+    text-underline-position: above;
+}
+.social {
+    display: flex;
+}
+.login {
+    display: flex;
+    margin-top: 20px;
+}
+.login button {
+    height: 40px;
+    border-radius: 5px;
+    color: #7159c1;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+}
+.social img {
+    display: flex;
+    margin-top: 25px;
+    height: 30px;
+}
+.texto {
+    width: 500px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.texto h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+}
+.texto p {
+    font-size: 18px;
+    color: #af9ee6;
+}
+.imagem {
+    width: 400px;
+    padding-top: 70px;
+}
+.imagem img {
+    padding-right: 20px;
+}
+.texto button {
+    background-color: #7159c1;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+}
+.texto button:hover {
+    background-color: #7f6ac7;
+}
+.roxo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+.roxo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.roxo p {
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+}
+.roxo img {
+    margin-bottom: 40px;
+}

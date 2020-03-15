@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top {
+    position: absolute;
+    background-color: #1d1e1e;
+    height: 50px;
+    width: 100vw;
+}
+.top_right {
+    float: right;
+    height: 50px;
+}
+.top_right a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    line-height: 50px;
+}
+.top_right a:hover {
+    color: #00AFEF;
+    font-weight: bolder;
+}
+.leftmenu {
+    position: absolute;
+    background-color: #262627;
+    height: 100vh;
+    width: 250px;
+}
+.leftmenu-logo {
+    position: absolute ;
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+}
+.leftmenu-logo img {
+    position: absolute;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+.menuarea {
+    margin-top: 150px;
+    width: inherit;
+    color: white;
+}
+.menuarea ul,
+.areainfo-fav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuarea li {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid black;
+    padding-left: 50px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+}
+.menuarea li:last-child {
+    border-bottom: 1px solid black;
+}
+.menuarea li:hover,
+.active {
+    background-color: #3e4095;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.menuarea li a,
+.areainfo-fav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menuarea li:nth-child(1){
+    background-image: url('../images/home.png');
+}
+.menuarea li:nth-child(2){
+    background-image: url('../images/meeting.png');
+}
+.menuarea li:nth-child(3){
+    background-image: url('../images/management.png');
+}
+.menuarea li:nth-child(4){
+    background-image: url('../images/files.png');
+}
+.menuarea li:nth-child(5){
+    background-image: url('../images/money.png');
+}
+.menuarea li:nth-child(6){
+    background-image: url('../images/chart.png');
+}
+.menuarea li:nth-child(7){
+    background-image: url('../images/wheel.png');
+}
+.areainfo {
+    background-color: white;
+    width: inherit;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+.areainfo-menu {
+    background-color: #e2dede;
+    width: inherit;
+    height: 50px;
+    background-image: url('../images/home.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 15px 15px;
+}
+.areainfo-menu h6 {
+    color: white;
+    font-size: 15px;
+    padding-top: 17px;
+    padding-left: 50px;
+}
+.areainfo-fav {
+    padding-left: 20px;
+    width: inherit;
+    height: 150px;
+    display: flex;
+}
+.areainfo-fav ul {
+    display: flex;
+}
+.areainfo-fav li {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    line-height: 100px;
+    list-style: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 75px 10px;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(85, 84, 84, 0.5);
+}
+.areainfo-fav li a {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+}
+.areainfo-fav li:nth-child(1) {
+    background-image: url('../images/meeting.png');
+    background-color: #00afef;
+}
+.areainfo-fav li:nth-child(2) {
+    background-image: url('../images/management.png');
+    background-color: #28b779;
+}
+.areainfo-fav li:nth-child(3) {
+    background-image: url('../images/files.png');
+    background-color: #ffb748;
+}
+.areainfo-fav li:nth-child(4) {
+    background-image: url('../images/money.png');
+    background-color: #dc532f;
+}
+.areainfo-fav li:nth-child(5) {
+    background-image: url('../images/chart.png');
+    background-color: #3e4095;
+}
+.areainfo-fav li:nth-child(1):hover {
+    background-color: #0096cc;
+}
+.areainfo-fav li:nth-child(2):hover {
+    background-color: #23a06a;
+}
+.areainfo-fav li:nth-child(3):hover {
+    background-color: #dd9d3e;
+}
+.areainfo-fav li:nth-child(4):hover {
+    background-color: #b34226;
+}
+.areainfo-fav li:nth-child(5):hover {
+    background-color: #373883;
+}

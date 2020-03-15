@@ -1,0 +1,48 @@
+nav {
+  background-color: #eee;
+  height: 100px;
+}
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  background-color: #CCC;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+nav li a:hover {
+  background-color: greenyellow;
+}
+
+.msg-sucesso, .msg-aviso, .msg-info {
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid #CCC;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+.msg-info {
+  border-color: blue;
+  color: blue;
+}
+
+.msg-aviso {
+  border-color: red;
+  color: red;
+}
+
+.msg-sucesso {
+  border-color: green;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
